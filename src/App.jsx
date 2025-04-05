@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="app">
       <Navbar />
-      <Routes >
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coin/:coinId" element={<Coin />} />
       </Routes>
